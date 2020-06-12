@@ -3,27 +3,19 @@
 DSC160 Data Science and the Arts - Final Project - Generative Arts - Spring 2020
 
 Project Team Members: 
-- Firstname Lastname1, name1@ucsd.edu
-- Firstname Lastname2, name2@ucsd.edu
-- Firstname Lastname3, name3@ucsd.edu
-- Firstname Lastname4, name4@ucsd.edu
-- Firstname Lastname5, name5@ucsd.edu
+- Adam Kreitzman, akreitzm@ucsd.edu
+- Yijian Zong, name2@ucsd.edu
+- Jonathan Zhang, name3@ucsd.edu
+- Joseph Fallon, name4@ucsd.edu
+- Ka Ming Chan, kmc026@ucsd.edu
 
 ## Abstract
 
 (10 points) 
 
-For the project proposal, please write a short abstact addressing the questions below. You need to replace the entire contents of this section with one to two paragraphs addressing the following:
-
-- What is your concept for a generative art project? 
-- What methods/networks/techniques will you employ (include links to technical precedents/code bases)
-- What training data (if any) will you use for your project? 
-- What kind of results do you hope that your system will produce?
-- How will you present your result/what form will your output take?
-- What if any challenges to you think may arise as you are working with this?
-- How are you expanding on topics we have covered in class? 
-- Why is it interesting? (personally, culturally, politically, other)
-- List three papers / art projects that are references for this work.
+We aim to explore the generative prowess of both GAN and LSTM and compare their results. Moreover, we aim to try different implementations of each network and see the subtle differences within each architecture. Most importantly, such exploration enables us to investigate the rarely touched realm of the intersection between arts and technology and contemplate some metaphysical questions: What is music and can we define a qualitative measurement of it? Is there a dissonance between our perception of music and algorithms' perception? Is there a universal archetype of music composition in which we are unanimous?
+  
+We plan to employ different implementations of GANs and LSTMs. We intend to use Bach preludes and fugues, since Bach is the epitome of music, and his music is fairly structured which makes the training results more salient. Hopefully, the models can generate Bach-like music and capture the melody, polyphonic, and polyrhythms of his composing style. Even better, the models may be creative in utilizing Bach's composing techniques. Our result will be presented using sounds and waveplots, so the audience can see the patterns. A defined metric of musicality that we would use to compare each network would be shared. Some challenges might be the difficulty to decide a good quantative metric, and generating music that has an underlying structure rather than random sounds. This project is interesting since we are curious to see whether algorithms can capture the patterns of music and be creative to generate using the learned materials; it is like human composing using learned building blocks like scale, arpeggio, and chord progressions.
 
 ## Data and Model
 
@@ -33,7 +25,7 @@ In the final submission, this section will describe both the data you use for th
 - Such and such Neural Net. The short description of this neural net. 
   - [link to code]().
   - [Title of Paper with Link](). 
-- Training data. Short description of training data including bibliographic info. [link to data]().
+- Training data: Bach's music. Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). The data is in the Datasets section of the page. [https://github.com/chrisdonahue/wavegan]().
 
 ## Code
 
@@ -86,5 +78,16 @@ Any implementation details or notes we need to repeat your work.
 
 All references to papers, techniques, previous work, repositories you used should be collected at the bottom:
 - Papers
+  1. https://arxiv.org/ftp/arxiv/papers/1804/1804.07300.pdf
+  2. https://salu133445.github.io/musegan/papers
+
 - Repositories
+  1. https://github.com/salu133445/musegan
+  2. https://github.com/nikhil-kotecha/Generating_Music
+  3. https://github.com/Skuldur/Classical-Piano-Composer
+  4. https://github.com/chrisdonahue/wavegan
+
 - Blog posts
+  1. https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
+  2. https://magenta.tensorflow.org/gansynth
+  3. https://chrisdonahue.com/wavegan_examples/
