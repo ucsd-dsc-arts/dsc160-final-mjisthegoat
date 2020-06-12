@@ -22,10 +22,23 @@ We plan to employ different implementations of GANs and LSTMs. We intend to use 
 (10 points) 
 
 In the final submission, this section will describe both the data you use for this project and any pre-existing models/neural nets. For each you should provide the name, a textual description, and a link. If there is a paper (for neural net) link that as well.
-- Such and such Neural Net. The short description of this neural net. 
-  - [link to code]().
-  - [Title of Paper with Link](). 
-- Training data: Bach's music. Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). The data is in the Datasets section of the page. [https://github.com/chrisdonahue/wavegan]().
+- Recurrent Neural Network (RNN). A neural network good at modeling sequences of data (text, music, speech/sound). Parent of LSTM.
+  - [https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb]().
+  - [Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network https://arxiv.org/abs/1808.03314](). 
+- Long Short-term Memory Networks (LSTM). A recurrent neural network that has multiple neural network layers. It can maintain information in memory for long periods of time.
+  - [https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb]().
+  - [Generating Music using an LSTM Network https://arxiv.org/ftp/arxiv/papers/1804/1804.07300.pdf](). 
+- Generative Adversarial Network (GAN). A generative model premised on game theory between two players.
+  - [https://github.com/magenta/magenta/tree/master/magenta/models/gansynth]().
+  -
+- WaveGAN
+  -
+  -
+- SpecGAN
+  -
+  -
+- Training data: Bach's music. Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). Data is in the Datasets section of the page. 
+  - [https://github.com/chrisdonahue/wavegan]().
 
 ## Code
 
@@ -86,6 +99,7 @@ All references to papers, techniques, previous work, repositories you used shoul
   2. https://github.com/nikhil-kotecha/Generating_Music
   3. https://github.com/Skuldur/Classical-Piano-Composer
   4. https://github.com/chrisdonahue/wavegan
+  5. https://github.com/animeshsharma97/Music-Generation
 
 - Blog posts
   1. https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
