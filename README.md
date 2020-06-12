@@ -26,16 +26,16 @@ In the final submission, this section will describe both the data you use for th
   - [https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb]().
   - Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network [https://arxiv.org/abs/1808.03314](). 
 - Long Short-term Memory Networks (LSTM). A recurrent neural network that has multiple neural network layers. It can maintain information in memory for long periods of time.
-  - [https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb]().
-  - Generating Music using an LSTM Network [https://arxiv.org/ftp/arxiv/papers/1804/1804.07300.pdf](). 
+  - [https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb]()
+  - Generating Music using an LSTM Network [https://arxiv.org/ftp/arxiv/papers/1804/1804.07300.pdf]()
 - Generative Adversarial Network (GAN). A generative model premised on game theory between two players.
-  - [https://github.com/magenta/magenta/tree/master/magenta/models/gansynth]().
+  - [https://github.com/magenta/magenta/tree/master/magenta/models/gansynth]()
 - WaveGAN. A machine learning algorithm which learns to generate raw audio waveforms.
-  - [https://github.com/chrisdonahue/wavegan]().
+  - [https://github.com/chrisdonahue/wavegan]()
 - SpecGAN. Generates audio by applying image-generating GANs on image-like audio spectrograms. Only generates spectrograms of one second in length at 16khz.
-  - [https://github.com/chrisdonahue/wavegan]().
+  - [https://github.com/chrisdonahue/wavegan]()
 - Training data: Bach's music. Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). Data is in the Datasets section of the page. 
-  - [https://github.com/chrisdonahue/wavegan]().
+  - [https://github.com/chrisdonahue/wavegan]()
 
 ## Code
 
