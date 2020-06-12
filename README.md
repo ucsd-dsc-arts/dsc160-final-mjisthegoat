@@ -21,32 +21,20 @@ We plan to employ different implementations of GANs and LSTMs. We intend to use 
 
 (10 points) 
 
-- Recurrent Neural Network (RNN)
-
-  - A neural network good at modeling sequences of data (text, music, speech/sound). Parent of LSTM.
-  - [https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb] (Code)
-  - Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network [https://arxiv.org/abs/1808.03314] (Paper)
-- Long Short-term Memory Networks (LSTM)
-
-  - A recurrent neural network that has multiple neural network layers. It can maintain information in memory for long periods of time.
-  - [https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb] (Code)
-  - Generating Music using an LSTM Network [https://arxiv.org/ftp/arxiv/papers/1804/1804.07300.pdf] (Paper)
-- Generative Adversarial Network (GAN)
-
-  - A generative model premised on game theory between two players.
-  - [https://github.com/magenta/magenta/tree/master/magenta/models/gansynth](Code)
-- WaveGAN
-
-  - A machine learning algorithm which learns to generate raw audio waveforms.
-  - [https://github.com/chrisdonahue/wavegan](Code)
-- SpecGAN
-
-  - Generates audio by applying image-generating GANs on image-like audio spectrograms. Only generates spectrograms of one second in length at 16khz.
-  - [https://github.com/chrisdonahue/wavegan](Code)
-- Training data: Bach's music
-
-  - Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). Data is in the Datasets section of the page. 
-  - [https://github.com/chrisdonahue/wavegan](Link)
+- Recurrent Neural Network (RNN) - A neural network good at modeling sequences of data (text, music, speech/sound). Parent of LSTM.
+  - https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb (Code)
+  - Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network https://arxiv.org/abs/1808.03314 (Paper)
+- Long Short-term Memory Networks (LSTM) - A recurrent neural network that has multiple neural network layers. It can maintain information in memory for long periods of time.
+  - https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb (Code)
+  - Generating Music using an LSTM Network https://arxiv.org/ftp/arxiv/papers/1804/1804.07300.pdf (Paper)
+- Generative Adversarial Network (GAN) - A generative model premised on game theory between two players.
+  - https://github.com/magenta/magenta/tree/master/magenta/models/gansynth (Code)
+- WaveGAN - A machine learning algorithm which learns to generate raw audio waveforms.
+  - https://github.com/chrisdonahue/wavegan (Code)
+- SpecGAN - Generates audio by applying image-generating GANs on image-like audio spectrograms. Only generates spectrograms of one second in length at 16khz.
+  - https://github.com/chrisdonahue/wavegan (Code)
+- Training data: Bach's music - Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). Data is in the Datasets section of the page. 
+  - https://github.com/chrisdonahue/wavegan (Link)
 
 ## Code
 
