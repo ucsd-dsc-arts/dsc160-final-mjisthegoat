@@ -63,6 +63,8 @@ This link contains the code for running the main generative models of this proje
 
 (30 points) 
 
+[https://github.com/ucsd-dsc-arts/dsc160-final-mjisthegoat/blob/master/results]
+
 Results:
 -The pred_rnn.wav file is the LSTM prediction for Bach, and if you listen to it you can pretty clearly hear both the overfitting and the lack of sound quality.
 
