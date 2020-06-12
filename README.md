@@ -79,6 +79,7 @@ Any implementation details or notes we need to repeat your work.
 All references to papers, techniques, previous work, repositories you used should be collected at the bottom:
 - Papers
   1. Generating Music using an LSTM Network
+
   https://arxiv.org/ftp/arxiv/papers/1804/1804.07300.pdf
   2. https://salu133445.github.io/musegan/papers
 
@@ -89,4 +90,5 @@ All references to papers, techniques, previous work, repositories you used shoul
 
 - Blog posts
   1. How to Generate Music using a LSTM Neural Network in Keras
+  
   https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
