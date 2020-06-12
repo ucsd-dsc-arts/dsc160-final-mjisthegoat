@@ -39,7 +39,7 @@ We plan to employ different implementations of GANs and LSTMs. We intend to use 
   - Generates audio by applying image-generating GANs on image-like audio spectrograms. Only generates spectrograms of one second in length at 16khz.
   - https://github.com/chrisdonahue/wavegan (Code)
 - Training data: Bach's music 
-  - Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). Data is in the Datasets section of the page. 
+  - Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). Data is downloadable in the Datasets section of the page labeled "Bach piano performances". 
   - https://github.com/chrisdonahue/wavegan (Link)
 
 ## Code
@@ -53,7 +53,7 @@ This section will link to the various code for your project (stored within this 
 - training code (if appropriate)
 - generative methods
 
-There is no code for data acquisition/scraping as the training data consists of soundfiles that are downloaded directly from the given link above.
+There is no code for data acquisition/scraping as the training data consists of sound files that were downloaded directly from the given link above.
 
 Link: https://github.com/ucsd-dsc-arts/dsc160-final-mjisthegoat/blob/master/code/Final_Project.ipynb
 
