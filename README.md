@@ -26,11 +26,11 @@ We plan to employ different implementations of GANs and LSTMs. We intend to use 
   - https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb (Code)
   - Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network https://arxiv.org/abs/1808.03314 (Paper)
 - Long Short-term Memory Networks (LSTM) 
-  - A recurrent neural network that has multiple neural network layers. It can maintain information in memory for long periods of time.
+  - A recurrent neural network that has multiple neural network layers. It can maintain information in memory for long periods of time. It is capable of learning long-term dependencies.
   - https://github.com/animeshsharma97/Music-Generation/blob/master/music_generation.ipynb (Code)
   - Generating Music using an LSTM Network https://arxiv.org/ftp/arxiv/papers/1804/1804.07300.pdf (Paper)
 - Generative Adversarial Network (GAN) 
-  - A generative model premised on game theory between two players.
+  - A generative model premised on game theory between two players. It involves two sub-models: the generator model which generates new plausible examples from the problem domain, and the discriminator model which is used to classify examples as real (from domain) or fake (generated)
   - https://github.com/magenta/magenta/tree/master/magenta/models/gansynth (Code)
 - WaveGAN 
   - A machine learning algorithm which learns to generate raw audio waveforms.
@@ -53,8 +53,11 @@ This section will link to the various code for your project (stored within this 
 - training code (if appropriate)
 - generative methods
 
-[https://github.com/ucsd-dsc-arts/dsc160-final-mjisthegoat/blob/master/code/Final_Project.ipynb]
+There is no code for data acquisition/scraping as the training data consists of soundfiles that are downloaded directly from the given link above.
 
+Link: https://github.com/ucsd-dsc-arts/dsc160-final-mjisthegoat/blob/master/code/Final_Project.ipynb
+
+This link contains the code for running the main generative models of this project - WaveGAN, SpecGAN, and LSTM. The code for the preprocessing, training, as well as generating procedures are all included sequentially. 
 
 ## Results
 
