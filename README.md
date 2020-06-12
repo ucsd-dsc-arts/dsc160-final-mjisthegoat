@@ -13,27 +13,9 @@ Project Team Members:
 
 (10 points) 
 
-For the project proposal, please write a short abstact addressing the questions below. You need to replace the entire contents of this section with one to two paragraphs addressing the following:
-
-  We aim to explore the generative prowess of both GAN and LSTM and compare their results. Moreover, we aim to try different implementations of each network and see the subtle differences within each architecture. Most importantly, such exploration enables us to investigate the rarely touched realm of the intersection between arts and technology and contemplate some metaphysical questions: What is music and can we define a qualitative measurement of it? Is there a dissonance between our perception of music and algorithms' perception? Is there a universal archetype of music composition in which we are unanimous?
+We aim to explore the generative prowess of both GAN and LSTM and compare their results. Moreover, we aim to try different implementations of each network and see the subtle differences within each architecture. Most importantly, such exploration enables us to investigate the rarely touched realm of the intersection between arts and technology and contemplate some metaphysical questions: What is music and can we define a qualitative measurement of it? Is there a dissonance between our perception of music and algorithms' perception? Is there a universal archetype of music composition in which we are unanimous?
   
-  We plan to employ different implementations of GANs and LSTMs. Code Base:
-       1. https://urldefense.com/v3/__https://github.com/salu133445/musegan*5Cn__;JQ!!Mih3wA!TPasqpiWKI4nV2rjGWb8B4FRox7SRdg8PTmwFu2zsJn8XrcDvxswvBuYjMzenl0f$              2. https://urldefense.com/v3/__https://github.com/nikhil-kotecha/Generating_Music*5Cn__;JQ!!Mih3wA!TPasqpiWKI4nV2rjGWb8B4FRox7SRdg8PTmwFu2zsJn8XrcDvxswvBuYjCZIIxQT$              3. https://urldefense.com/v3/__https://github.com/Skuldur/Classical-Piano-Composer*5Cn__;JQ!!Mih3wA!TPasqpiWKI4nV2rjGWb8B4FRox7SRdg8PTmwFu2zsJn8XrcDvxswvBuYjO8dQCKy$   
-       
-
-We intend to use Bach preludes and fugues since Bach is the epitome of music and his music is fairly structured, which makes the training results more salient.
-
-We hope that the models can generate Bach-like music and capture the melody, polyphonic, and polyrhythms of his composing style. Even better, we hope that models can be creative in utilizing Bach's composing techniques.
-
-We will present our result using sounds and waveplots so the audience can see the patterns. We will also share defined metric of musicality that we would use to compare each network.
-
-The challenges might be difficulty to decide a good quantative metric and generate music that has an underlying structure rather than random sounds.
-
-Rather than using a single model and see the result, we go above and beyond by trying different implementations of different models and also construct a metric for comparison.
-
-It is interesting since we are curious to see whether algorithms can capture the patterns of music and be creative to generate using the learned materials. It is like human composing using learned building blocks like scale, arpeggio, and chord progressions.
-
-Generating Music using an LSTM Network (https://urldefense.com/v3/__https://arxiv.org/pdf/1804.07300.pdf)*5Cn__;JQ!!Mih3wA!TPasqpiWKI4nV2rjGWb8B4FRox7SRdg8PTmwFu2zsJn8XrcDvxswvBuYjL6W_UG1 2. MuseGAN (https://urldefense.com/v3/__https://salu133445.github.io/musegan/papers)*5Cn__;JQ!!Mih3wA!TPasqpiWKI4nV2rjGWb8B4FRox7SRdg8PTmwFu2zsJn8XrcDvxswvBuYjHCQSBlH  3. How to Generate Music using a LSTM Neural Network in Keras(https://urldefense.com/v3/__https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5)*5Cn__;JQ!!Mih3wA!TPasqpiWKI4nV2rjGWb8B4FRox7SRdg8PTmwFu2zsJn8XrcDvxswvBuYjFY3-9OL$
+We plan to employ different implementations of GANs and LSTMs. We intend to use Bach preludes and fugues, since Bach is the epitome of music, and his music is fairly structured which makes the training results more salient. Hopefully, the models can generate Bach-like music and capture the melody, polyphonic, and polyrhythms of his composing style. Even better, the models may be creative in utilizing Bach's composing techniques. Our result will be presented using sounds and waveplots, so the audience can see the patterns. A defined metric of musicality that we would use to compare each network would be shared. Some challenges might be the difficulty to decide a good quantative metric, and generating music that has an underlying structure rather than random sounds. This project is interesting since we are curious to see whether algorithms can capture the patterns of music and be creative to generate using the learned materials; it is like human composing using learned building blocks like scale, arpeggio, and chord progressions.
 
 ## Data and Model
 
@@ -96,5 +78,15 @@ Any implementation details or notes we need to repeat your work.
 
 All references to papers, techniques, previous work, repositories you used should be collected at the bottom:
 - Papers
+  1. Generating Music using an LSTM Network
+  https://arxiv.org/ftp/arxiv/papers/1804/1804.07300.pdf
+  2. https://salu133445.github.io/musegan/papers
+
 - Repositories
+  1. https://github.com/salu133445/musegan
+  2. https://github.com/nikhil-kotecha/Generating_Music
+  3. https://github.com/Skuldur/Classical-Piano-Composer
+
 - Blog posts
+  1. How to Generate Music using a LSTM Neural Network in Keras
+  https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
