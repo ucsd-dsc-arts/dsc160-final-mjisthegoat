@@ -25,7 +25,7 @@ In the final submission, this section will describe both the data you use for th
 - Such and such Neural Net. The short description of this neural net. 
   - [link to code]().
   - [Title of Paper with Link](). 
-- Training data. Short description of training data including bibliographic info. [link to data]().
+- Training data: Bach's music. Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). [https://github.com/chrisdonahue/wavegan]().
 
 ## Code
 
@@ -85,6 +85,9 @@ All references to papers, techniques, previous work, repositories you used shoul
   1. https://github.com/salu133445/musegan
   2. https://github.com/nikhil-kotecha/Generating_Music
   3. https://github.com/Skuldur/Classical-Piano-Composer
+  4. https://github.com/chrisdonahue/wavegan
 
 - Blog posts
   1. https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
+  2. https://magenta.tensorflow.org/gansynth
+  3. https://chrisdonahue.com/wavegan_examples/
