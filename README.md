@@ -25,7 +25,7 @@ In the final submission, this section will describe both the data you use for th
 - Such and such Neural Net. The short description of this neural net. 
   - [link to code]().
   - [Title of Paper with Link](). 
-- Training data: Bach's music. Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). [https://github.com/chrisdonahue/wavegan]().
+- Training data: Bach's music. Piano music composed by German musician Johann Sebastian Bach (1685 - 1750). The data is in the Datasets section of the page. [https://github.com/chrisdonahue/wavegan]().
 
 ## Code
 
